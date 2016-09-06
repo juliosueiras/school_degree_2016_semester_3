@@ -1,6 +1,7 @@
 ## Mobile Application Principle - PROG20082 - Introduction Database & Database PL/SQL Programming
 
 ---
+### [Class Plan](./getting_started/Class_Plan.pdf)
 
 ### Week 01 
 
