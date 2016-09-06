@@ -4,6 +4,6 @@
 
 - Week 01 
 
-> [Android Studio Intro](./getting_started/Android_Studio_Intro.pdf)
-> [AVD Installation Instruction](./getting_started/AVD_Installation_Instructions.pdf)
-> [Java Basics](./getting_started/Java_Basics.pdf)
+	- [Android Studio Intro](./getting_started/Android_Studio_Intro.pdf)
+	- [AVD Installation Instruction](./getting_started/AVD_Installation_Instructions.pdf)
+	- [Java Basics](./getting_started/Java_Basics.pdf)
