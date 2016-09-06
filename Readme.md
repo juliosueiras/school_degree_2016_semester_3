@@ -2,7 +2,7 @@
 
 ---
 
-### Overview
+### Overview & Week 01
 - [Course Plan](./overview/course_plan.pdf)
 
 
