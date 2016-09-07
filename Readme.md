@@ -8,4 +8,4 @@
 
 - [Programming Languages - PROG24310](https://github.com/juliosueiras/school_degree_2016_semester_3/tree/programming_languages)
 
-- [Composition & Rhetoric - ENGL17889GD](https://github.com/juliosueiras/school_degree_2016_semester_3/tree/Composition_and_rhetoric)
+- [Composition & Rhetoric - ENGL17889GD](https://github.com/juliosueiras/school_degree_2016_semester_3/tree/composition_and_rhetoric)
