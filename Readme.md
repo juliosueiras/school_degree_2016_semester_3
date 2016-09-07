@@ -21,13 +21,12 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Database Modelling - Sheridan Mobile Computing 2016 Semester 3
+## Programming Languages - Sheridan Mobile Computing 2016 Semester 3
 
 ---
 
 ### Week 01 - Introduction
 - [Course Plan](./overview/course_plan.pdf)
-
 
 ### Week 02 - Design
 ### Week 03 - Normalization
