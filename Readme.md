@@ -6,6 +6,7 @@
   - [Contact](#contact)
   - [Week 01 - Introduction](#week-01---introduction)
   - [Week 02 - Nature & Process of Argument](#week-02---nature-&-process-of-argument)
+  - [Week 03 - Pre-Reading, Annotating & Summary Writing](#week-03---pre-reading-annotating-&-summary-writing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -29,17 +30,19 @@
 
 ### Week 02 - Nature & Process of Argument
 - [Slide](./weeks/week_02/nature_and_process_of_argument.pdf)
+
 ### Week 03 - Pre-Reading, Annotating & Summary Writing
 - [Slide 1 - Pre-Reading & Annotating](./weeks/week_03/pre_reading_and_process_of_argument.pdf)
 - [Slide 2 - Summary Writing](./weeks/week_03/summary_writing.pdf)
-### Week 04
-### Week 05
-### Week 06
-### Week 07
-### Week 08
-### Week 09
-### Week 10
-### Week 11
-### Week 12
-### Week 13
-### Week 14
+
+<!-- ### Week 04 -->
+<!-- ### Week 05 -->
+<!-- ### Week 06 -->
+<!-- ### Week 07 -->
+<!-- ### Week 08 -->
+<!-- ### Week 09 -->
+<!-- ### Week 10 -->
+<!-- ### Week 11 -->
+<!-- ### Week 12 -->
+<!-- ### Week 13 -->
+<!-- ### Week 14 -->
