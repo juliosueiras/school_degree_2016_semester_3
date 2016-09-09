@@ -2,26 +2,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Mobile Application Principle - PROG20082 - Introduction Database & Database PL/SQL Programming](#mobile-application-principle---prog20082---introduction-database-&-database-plsql-programming)
+- [Wireless Network Principle - TELE25892 - Wireless Network System](#wireless-network-principle---tele25892---wireless-network-system)
   - [Class Plan](#class-plan)
-  - [Week 01](#week-01)
+  - [Week 01:](#week-01)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Mobile Application Principle - PROG20082 - Introduction Database & Database PL/SQL Programming
+## Wireless Network Principle - TELE25892 - Wireless Network System
 
 ---
 ### [Class Plan](./getting_started/Class_Plan.pdf)
 
-### Week 01 
+### Week 01:
 
-- [Android Studio Intro](./getting_started/Android_Studio_Intro.pdf)
-- [AVD Installation Instruction](./getting_started/AVD_Installation_Instructions.pdf)
-- [Java Basics](./getting_started/Java_Basics.pdf)
 - [Course Intro](./getting_started/Course_Intro.pdf)
-- [Resources, Strings, Color](./weeks/week_01/Resources_Strings_Color.pdf)
-- Screenshot:
-	- [1](./getting_started/screenshot_1.jpg)
-	- [2](./getting_started/screenshot_2.jpg)
-- Homework:
-    - Finish [Exercise](./weeks/week_01/Exercise.pdf)
