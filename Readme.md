@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Mobile Application Principle - PROG20082 - Introduction Database & Database PL/SQL Programming](#mobile-application-principle---prog20082---introduction-database-&-database-plsql-programming)
+  - [Class Plan](#class-plan)
+  - [Week 01](#week-01)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Mobile Application Principle - PROG20082 - Introduction Database & Database PL/SQL Programming
 
 ---
