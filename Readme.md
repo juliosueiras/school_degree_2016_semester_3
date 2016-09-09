@@ -15,4 +15,4 @@
 
 ### Week 01:
 
-- [Course Intro](./getting_started/Course_Intro.pdf)
+- [Course Intro](./getting_started/Course_Outline.pdf)
