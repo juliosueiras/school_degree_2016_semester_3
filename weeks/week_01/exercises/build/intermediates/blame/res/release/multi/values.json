@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/juliosueiras/sheridan/school_degree_2016_semester_3/weeks/week_01/exercises/build/intermediates/res/merged/release/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 49,
+                    "endOffset": 100
+                },
+                "from": {
+                    "file": "/home/juliosueiras/sheridan/school_degree_2016_semester_3/weeks/week_01/exercises/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 49,
+                        "endOffset": 100
+                    }
+                }
+            }
+        ]
+    }
+]
