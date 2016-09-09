@@ -9,3 +9,5 @@
 - [Programming Languages - PROG24310](https://github.com/juliosueiras/school_degree_2016_semester_3/tree/programming_languages)
 
 - [Composition & Rhetoric - ENGL17889GD](https://github.com/juliosueiras/school_degree_2016_semester_3/tree/composition_and_rhetoric)
+
+- [Wireless Network Principle - TELE25892](https://github.com/juliosueiras/school_degree_2016_semester_3/tree/wireless_network_principles)
