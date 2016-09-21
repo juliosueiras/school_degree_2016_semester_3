@@ -5,7 +5,6 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.0-rc2'
         classpath 'me.tatarka:gradle-retrolambda:3.3.0'
-        classpath 'net.sourceforge.streamsupport:streamsupport:1.5.1'
     }
 }
 
@@ -18,14 +17,6 @@ allprojects {
 apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
 
-dependencies {
-    compile 'net.sourceforge.streamsupport:streamsupport:1.5.1'
-    compile 'net.sourceforge.streamsupport:streamsupport-cfuture:1.5.1'
-    compile 'net.sourceforge.streamsupport:streamsupport-atomic:1.5.1'
-    compile 'net.sourceforge.streamsupport:streamsupport-flow:1.5.1'
-    compile 'net.sourceforge.streamsupport:streamsupport-literal:1.5.1'
-}
-
 
 android {
     compileSdkVersion 'android-18'
@@ -37,6 +28,8 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -47,6 +40,19 @@ android {
         monkey {
         }
     }
+
+    lintOptions {
+        abortOnError false
+    }
 }
 
 apply from: "quality.gradle"
+
+dependencies {
+    compile 'com.android.support:support-annotations:23.2.1'
+
+    androidTestCompile 'com.android.support:support-annotations:23.2.1'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+}
