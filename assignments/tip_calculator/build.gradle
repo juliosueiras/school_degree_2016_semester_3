@@ -1,0 +1,52 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0-rc2'
+        classpath 'me.tatarka:gradle-retrolambda:3.3.0'
+        classpath 'net.sourceforge.streamsupport:streamsupport:1.5.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+dependencies {
+    compile 'net.sourceforge.streamsupport:streamsupport:1.5.1'
+    compile 'net.sourceforge.streamsupport:streamsupport-cfuture:1.5.1'
+    compile 'net.sourceforge.streamsupport:streamsupport-atomic:1.5.1'
+    compile 'net.sourceforge.streamsupport:streamsupport-flow:1.5.1'
+    compile 'net.sourceforge.streamsupport:streamsupport-literal:1.5.1'
+}
+
+
+android {
+    compileSdkVersion 'android-18'
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.juliosueiras.tip_calculator"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        monkey {
+        }
+    }
+}
+
+apply from: "quality.gradle"
