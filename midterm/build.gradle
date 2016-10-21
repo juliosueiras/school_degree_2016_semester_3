@@ -1,0 +1,68 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0'
+        classpath 'me.tatarka:gradle-retrolambda:3.3.0'
+        classpath 'com.stanfy.spoon:spoon-gradle-plugin:1.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'spoon'
+
+
+android {
+    compileSdkVersion 'android-18'
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.juliosueiras.midterm"
+        minSdkVersion 16
+        targetSdkVersion 23
+        compileSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        monkey {
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+apply from: "quality.gradle"
+
+dependencies {
+    compile 'com.android.support:support-annotations:23.2.1'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+
+    androidTestCompile 'com.android.support:support-annotations:23.2.1'
+    androidTestCompile 'com.android.support.test:runner:0.5'
+    androidTestCompile 'com.android.support.test:rules:0.5'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    androidTestCompile 'com.squareup.spoon:spoon-client:1.6.4'
+}
+
+spoon {
+  debug = true;
+}

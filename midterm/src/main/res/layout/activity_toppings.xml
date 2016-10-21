@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.juliosueiras.midterm.ToppingsActivity"
+    >
+
+    <TextView
+        android:id="@+id/text_toppings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text=""
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <CheckBox
+            android:id="@+id/check_box_cheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheese"
+            />
+        <CheckBox
+            android:id="@+id/check_box_pepperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pepperoni"
+            />
+
+        <CheckBox
+            android:id="@+id/check_box_green_pepper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green Pepper"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_complete_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPLETE ORDER"
+        android:onClick="completeOrder"
+        />
+
+
+</LinearLayout>
+
