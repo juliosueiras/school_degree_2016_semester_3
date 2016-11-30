@@ -1,4 +1,6 @@
 -- premake5.lua
+require 'premake-netbeans/netbeans'
+
 workspace "Assignment 3"
    configurations { "Debug", "Release" }
 
@@ -7,7 +9,9 @@ project "CellPrices"
    language "C++"
    targetdir "bin/%{cfg.buildcfg}"
 
-   files { "cell_prices.cpp" }
+   files { "cell_prices.cpp", "include/*.hpp" }
+
+   buildoptions "-std=c++11"
 
    filter "configurations:Debug"
       defines { "DEBUG" }
