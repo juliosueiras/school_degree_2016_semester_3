@@ -1,0 +1,33 @@
+#!/bin/expect -f
+spawn ./bin/Debug/Problem2_1
+expect "Enter how many students> "
+send "3\r"
+
+expect "Student 1's name> "
+send "Alex\r"
+expect "Comp> "
+send "88\r"
+expect "Phys> "
+send "93\r"
+expect "Math> "
+send "79\r"
+
+expect "Student 2's name> "
+send "Erick\r"
+expect "Comp> "
+send "78\r"
+expect "Phys> "
+send "94\r"
+expect "Math> "
+send "83\r"
+
+expect "Student 3's name> "
+send "David\r"
+expect "Comp> "
+send "97\r"
+expect "Phys> "
+send "76\r"
+expect "Math> "
+send "84\r"
+
+interact
